@@ -21,9 +21,9 @@ from judge import Judge, score_judge
 # 全局常量
 # ────────────────────────────────────────────────────────────
 MAX_REGEN  = 5    # 某次提问被拒后最大重生成次数
-MAX_RETRY  = 5    # 某一step最大重提次数（按本次要求修改为5）
+MAX_RETRY  = 5    # 某一step最大重提次数
 
-INPUT_FILE   = "gemini-2.5-pro_novel_3steps.json"
+INPUT_FILE   = "3steps.json"
 DETAIL_FILE  = "./Output/test_detail.jsonl"
 SUMMARY_FILE = "./Output/test_summary.jsonl"
 
