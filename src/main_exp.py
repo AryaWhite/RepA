@@ -22,9 +22,9 @@ from judge import Judge, score_judge
 # 全局常量
 # ────────────────────────────────────────────────────────────
 MAX_REGEN  = 5
-MAX_RETRY  = 7
+MAX_RETRY  = 10
 
-INPUT_FILE   = "gemini-2.5-pro_novel_3steps.json"
+INPUT_FILE   = "3steps.json"
 GEN_MODEL    = "qwen2.5"
 TARGET_MODEL = "llama3.1"
 JUDGE_DEVICE = "cuda:1"
