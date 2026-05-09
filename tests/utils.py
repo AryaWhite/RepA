@@ -16,9 +16,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from pathlib import Path
 import os
 
-API_HOST = "https://api.huiyan-ai.cn/v1/"
-API_KEY = " sk-hQtLdq8SnEHVPAB0bn76XVyv8kw6cexLoJh4pe3F8qbtE1F9"
-PUBLIC_MODEL = "/home/breaker/public_models"
+API_HOST = "xx"
+API_KEY = "yy"
+PUBLIC_MODEL = "/home/"
 
 
 MODEL_PATH = {
