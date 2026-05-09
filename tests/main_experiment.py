@@ -16,15 +16,15 @@ import gc
 from collections import defaultdict
 
 from utils import llm_adapter, LLM
-from judge import Judge, score_judge   # 已适配新版 judge（response vs origin_q 相关度 + Llama-Guard 等）
+from judge import Judge, score_judge   
 
 # ────────────────────────────────────────────────────────────
 # 全局常量
 # ────────────────────────────────────────────────────────────
 MAX_REGEN  = 5    # 某次提问被拒后最大重生成次数
-MAX_RETRY  = 7    # 某一step最大重提次数
+MAX_RETRY  = 10    # 某一step最大重提次数
 
-INPUT_FILE   = "gemini-2.5-pro_novel_3steps.json"
+INPUT_FILE   = "3steps.json"
 GEN_MODEL    = "qwen2.5"
 TARGET_MODEL = "llama3.1"
 JUDGE_DEVICE = "cuda:1"
